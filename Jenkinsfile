@@ -16,7 +16,7 @@ pipeline {
             }
             post {
                 always {
-                    junit 'target/surefire-reports/pom.properties'
+                    junit 'target/maven-archiver/pom.properties'
                 }
             }
         }
